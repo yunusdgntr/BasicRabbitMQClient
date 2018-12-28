@@ -13,7 +13,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         { 
             //Parameters (hostname username password)
-            var rabbitMqConnectionProvider = new RabbitMqConnectionProvider("192.168.1.1", "test", "test");
+            var rabbitMqConnectionProvider = new RabbitMqConnectionProvider("192.168.1.2", "test", "test");
             var rabbitMqConsumer = new RabbitMqConsumer(rabbitMqConnectionProvider);
             rabbitMqConsumer.Consume(YourMethod, "testqueue");
         }

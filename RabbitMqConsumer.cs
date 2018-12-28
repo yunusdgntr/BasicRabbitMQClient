@@ -16,10 +16,10 @@ namespace BasicRabbitMQClient
         }
 
         /// <summary>
-        /// Kuyruktan mesajın alınıp işlenmesi.
+        /// Received message consume process
         /// </summary>
-        /// <param name="methodName">Kuruktan gelecek olan değeri string parametre olarak alacak metodunuz.Metod geri dönüşünüz true false olmalı.</param>
-        /// <param name="queueName">Dinlenecek kuyruk ismi.</param>
+        /// <param name="methodName">Your method name. YourMethod(string message)</param>
+        /// <param name="queueName">Queue name</param>
         public void Consume(Func<string, bool> methodName, string queueName)
         {
             byte[] body;
