@@ -15,7 +15,6 @@ namespace BasicRabbitMQClient
         /// RabbitMQ ya yeni kuyruk tanımlama ve exhange e bind etme
         /// </summary>
         /// <param name="connectionProvider">Bağlantı bilgilerini içeren ConnectionProvider türünden paremetre</param>
-        /// <param name="logger">Loglama örneği</param>
         /// <param name="exchangeName"></param>
         /// <param name="queueName"></param>     
         public RabbitMqSubscriber(IRabbitMqConnectionProvider connectionProvider, string exchangeName, string queueName)
