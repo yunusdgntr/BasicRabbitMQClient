@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-using RabbitMQ.Client;
+﻿using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;
 using System.Text;
@@ -45,7 +44,6 @@ namespace BasicRabbitMQClient
                 }
             };
             channel.BasicConsume(queueName, false, consumer);
-            //_logger.LogInformation("bla bla");
 
         }
 

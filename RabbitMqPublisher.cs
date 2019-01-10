@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-using RabbitMQ.Client;
+﻿using RabbitMQ.Client;
 using System;
 using System.Text;
 
@@ -13,10 +12,10 @@ namespace BasicRabbitMQClient
         private readonly string _message;
 
         /// <summary>
-        /// RabbitMQ da var olan bir kuyruğa mesaj yayınlama sınıfı. Örnekleme sonrası Publish() metodu çağırılması gerekir.
+        /// The Publish () method should be called after sampling.
         /// </summary>
-        /// <param name="connectionProvider">Bağlantı bilgilerini içeren ConnectionProvider türünden paremetre</param>
-        /// <param name="message">Kuyruğa eklenilecek mesaj</param>
+        /// <param name="connectionProvider">ConnectionProvider have connections info</param>
+        /// <param name="message">Message you want to add to the queue </param>
         /// <param name="publicationAddress"></param>     
         public RabbitMqPublisher(IRabbitMqConnectionProvider connectionProvider, PublicationAddress publicationAddress, string message)
         {
@@ -27,7 +26,7 @@ namespace BasicRabbitMQClient
         }
 
         /// <summary>
-        /// Mesajı ilgili kuyruğa ekle
+        /// Add message to Queue 
         /// </summary>
         public void Publish()
         {
