@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
 	<PackageId>BasicRabbitMQClient</PackageId>
-	<Version>1.0.1</Version>
+	<Version>1.0.2</Version>
 	<Authors>Yunus Doğan</Authors>
 	<Company>yunusdgntr</Company>
   </PropertyGroup>

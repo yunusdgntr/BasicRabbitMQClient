@@ -2,7 +2,7 @@
 BasicRabbitMQ
 
 ```cs
-> Install-Package BasicRabbitMQClient -Version 1.0.1
+> Install-Package BasicRabbitMQClient -Version 1.0.2
 ```
 
 ### Consumer Example 

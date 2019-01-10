@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "BasicRabbitMQClient/1.0.1": {
+      "BasicRabbitMQClient/1.0.2": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "RabbitMQ.Client": "6.0.0-pre3"
@@ -33,7 +33,7 @@
     }
   },
   "libraries": {
-    "BasicRabbitMQClient/1.0.1": {
+    "BasicRabbitMQClient/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

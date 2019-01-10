@@ -6,3 +6,4 @@ c:\users\yunusd\Source\Repos\BasicRabbitMQClient\BasicRabbitMQClient\obj\Debug\n
 c:\users\yunusd\Source\Repos\BasicRabbitMQClient\BasicRabbitMQClient\bin\Debug\netstandard2.0\BasicRabbitMQClient.pdb
 c:\users\yunusd\Source\Repos\BasicRabbitMQClient\BasicRabbitMQClient\obj\Debug\netstandard2.0\BasicRabbitMQClient.dll
 c:\users\yunusd\Source\Repos\BasicRabbitMQClient\BasicRabbitMQClient\obj\Debug\netstandard2.0\BasicRabbitMQClient.pdb
+C:\Users\YunusD\Source\Repos\BasicRabbitMQClient\BasicRabbitMQClient\obj\Debug\netstandard2.0\BasicRabbitMQClient.csprojAssemblyReference.cache
